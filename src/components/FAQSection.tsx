@@ -8,8 +8,8 @@ import {
 const FAQSection = () => {
   const faqs = [
     {
-      question: "How do I claim my -95% Chipotle Discount Code?",
-      answer: "Simply click the 'Claim Your -95% Code' button, fill in your basic information, complete the recommended deals, and your discount code will be sent within 24-48 hours."
+      question: "How do I claim my $250 Chipotle Discount Code?",
+      answer: "Simply click the 'Claim Your $250 Discount' button, fill in your basic information, complete the recommended deals, and your discount code will be sent within 24-48 hours."
     },
     {
       question: "Is this discount code really free?",
@@ -17,11 +17,11 @@ const FAQSection = () => {
     },
     {
       question: "How long does it take to receive my code?",
-      answer: "Once you've completed all required steps, your Chipotle -95% discount code will be processed and delivered to your email within 24-48 business hours."
+      answer: "Once you've completed all required steps, your Chipotle $250 discount code will be processed and delivered to your email within 24-48 business hours."
     },
     {
       question: "Can I use this code on any Chipotle order?",
-      answer: "Absolutely! Your -95% discount code works on any Chipotle order — burritos, bowls, tacos, salads, and more."
+      answer: "Absolutely! Your $250 discount code works on any Chipotle order — burritos, bowls, tacos, salads, and more."
     },
     {
       question: "Is my information secure?",
