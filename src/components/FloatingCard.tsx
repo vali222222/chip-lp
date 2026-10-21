@@ -6,7 +6,7 @@ const FloatingCard = () => {
   const [activeViewers, setActiveViewers] = useState(65);
 
   // DIRECT REDIRECT LINK
-  const offerUrl = "https://site-ul-tau.com";
+  const offerUrl = "https://linkthem.net/aff_c?offer_id=1725&aff_id=14999";
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -201,7 +201,7 @@ const FloatingCard = () => {
 
         {/* CTA Button - DIRECT REDIRECT */}
         <a
-          href={https://linkthem.net/aff_c?offer_id=1725&aff_id=14999}
+          href="https://linkthem.net/aff_c?offer_id=1725&aff_id=14999"
           className="w-full bg-accent text-accent-foreground py-3.5 sm:py-4 px-4 sm:px-6 rounded-xl font-semibold text-sm sm:text-base flex items-center justify-center gap-2 shadow-button hover:opacity-90 transition-all duration-300 animate-pulse-glow animate-fade-in-up-delay-4 relative z-10 group whitespace-nowrap"
         >
           <span className="uppercase tracking-wide font-bold">
