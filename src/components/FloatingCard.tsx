@@ -86,7 +86,7 @@ const FloatingCard = () => {
                 </p>
 
                 <p className="font-display text-4xl sm:text-5xl font-extrabold text-white drop-shadow-lg">
-                  -95%
+                  $250
                 </p>
               </div>
 
