@@ -61,7 +61,7 @@ const FloatingCard = () => {
                   Exclusive Reward
                 </p>
                 <p className="font-display text-4xl sm:text-5xl font-extrabold text-white drop-shadow-lg">
-                  -95%
+                  $250
                 </p>
               </div>
               <div className="w-12 h-12 sm:w-14 sm:h-14 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm text-3xl">
