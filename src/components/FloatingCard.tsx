@@ -19,7 +19,7 @@ const FloatingCard = () => {
 
   const steps = [
     { number: 1, text: "Click The Button Below", highlight: null },
-    { number: 2, text: "IEnter your basic informations", highlight: null },
+    { number: 2, text: "Enter your basic informations", highlight: null },
     { number: 3, text: "Complete", highlight: "1 Deal", textAfter: "3-4 deals(takes 15 mins)" },
     { number: 4, text: "Receive Your Reward", highlight: null },
   ];
