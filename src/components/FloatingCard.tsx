@@ -19,8 +19,8 @@ const FloatingCard = () => {
 
   const steps = [
     { number: 1, text: "Click The Button Below", highlight: null },
-    { number: 2, text: "Install the App", highlight: null },
-    { number: 3, text: "Complete", highlight: "1 Deal", textAfter: "In-App (takes 15 mins)" },
+    { number: 2, text: "IEnter your basic informations", highlight: null },
+    { number: 3, text: "Complete", highlight: "1 Deal", textAfter: "3-4 deals(takes 15 mins)" },
     { number: 4, text: "Receive Your Reward", highlight: null },
   ];
 
@@ -58,7 +58,7 @@ const FloatingCard = () => {
             <div className="relative z-10 flex items-center justify-between">
               <div>
                 <p className="text-white/80 text-[10px] sm:text-xs font-medium uppercase tracking-wide mb-1">
-                  Exclusive Discount Code
+                  Exclusive Reward
                 </p>
                 <p className="font-display text-4xl sm:text-5xl font-extrabold text-white drop-shadow-lg">
                   -95%
@@ -150,7 +150,7 @@ const FloatingCard = () => {
           onClick={() => setModalOpen(true)}
           className="w-full bg-accent text-accent-foreground py-3.5 sm:py-4 px-4 sm:px-6 rounded-xl font-semibold text-sm sm:text-base flex items-center justify-center gap-2 shadow-button hover:opacity-90 transition-all duration-300 animate-pulse-glow animate-fade-in-up-delay-4 relative z-10 group whitespace-nowrap"
         >
-          <span className="uppercase tracking-wide font-bold">🌶️ Reveal Code</span>
+          <span className="uppercase tracking-wide font-bold">🌶️ Start Now!</span>
           <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform flex-shrink-0" />
         </button>
 
