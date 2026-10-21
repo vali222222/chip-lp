@@ -34,8 +34,8 @@ const FloatingCard = () => {
     {
       number: 3,
       text: "Complete",
-      highlight: "1 Deal",
-      textAfter: "3-4 deals (takes 15 mins)"
+      highlight: "3-4 deals",
+      textAfter: "(takes 15 mins)"
     },
     {
       number: 4,
