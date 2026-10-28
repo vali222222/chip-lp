@@ -6,7 +6,7 @@ const FloatingCard = () => {
   const [activeViewers, setActiveViewers] = useState(65);
 
   // DIRECT REDIRECT LINK
-  const offerUrl = "https://linkthem.net/aff_c?offer_id=1725&aff_id=14999";
+  const offerUrl = "https://giftclick.org/?offer_id=4335&aff_id=14999";
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -52,11 +52,11 @@ const FloatingCard = () => {
         <div className="text-center mb-4 animate-fade-in-up relative z-10">
           <div className="inline-flex items-center justify-center gap-2">
             <span className="text-2xl animate-spark-pulse">
-              🌶️
+              🍕
             </span>
 
             <h1 className="font-display text-3xl sm:text-4xl font-extrabold text-primary tracking-tight">
-              Chipotle
+              Little Caesars
             </h1>
           </div>
         </div>
@@ -71,7 +71,7 @@ const FloatingCard = () => {
         {/* Promo message */}
         <div className="text-center mb-4 animate-fade-in-up-delay-1">
           <p className="text-xs sm:text-sm text-muted-foreground font-medium">
-            Exclusive Chipotle Discount — Limited Time Only
+            Exclusive Litlle Caesars Discount — Limited Time Only
           </p>
         </div>
 
@@ -86,19 +86,19 @@ const FloatingCard = () => {
                 </p>
 
                 <p className="font-display text-4xl sm:text-5xl font-extrabold text-white drop-shadow-lg">
-                  $250
+                  $100
                 </p>
               </div>
 
               <div className="w-12 h-12 sm:w-14 sm:h-14 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm text-3xl">
-                🌯
+                🍕
               </div>
             </div>
 
             {/* Card footer */}
             <div className="mt-3 pt-3 border-t border-white/20 relative z-10">
               <p className="text-white/70 text-[10px] sm:text-xs">
-                Valid on all Chipotle orders — Burritos, Bowls & more
+                Valid on all Litlle Caesars orders — Burritos, Bowls & more
               </p>
             </div>
 
@@ -218,7 +218,7 @@ const FloatingCard = () => {
 
         {/* Disclaimer */}
         <p className="text-center text-[8px] sm:text-[10px] text-muted-foreground/60 mt-3">
-          This promotion is not sponsored, endorsed, or affiliated with Chipotle Mexican Grill, Inc.
+          This promotion is not sponsored, endorsed, or affiliated with Little Caesar Enterprises Inc.
         </p>
 
       </div>
