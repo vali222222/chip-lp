@@ -8,20 +8,20 @@ import {
 const FAQSection = () => {
   const faqs = [
     {
-      question: "How do I claim my $250 Chipotle Discount Code?",
-      answer: "Simply click the 'Claim Your $250 Discount' button, fill in your basic information, complete the recommended deals, and your discount code will be sent within 24-48 hours."
+      question: "How do I claim my $100 Litlle Caesars Discount Code?",
+      answer: "Simply click the 'Claim Your $100 Discount' button, fill in your basic information, complete the recommended deals, and your discount code will be sent within 24-48 hours."
     },
     {
       question: "Is this discount code really free?",
-      answer: "Yes! There are no hidden fees. You just need to complete the required partner offers to qualify for your Chipotle discount code."
+      answer: "Yes! There are no hidden fees. You just need to complete the required partner offers to qualify for your Little Caesars discount code."
     },
     {
       question: "How long does it take to receive my code?",
-      answer: "Once you've completed all required steps, your Chipotle $250 discount code will be processed and delivered to your email within 24-48 business hours."
+      answer: "Once you've completed all required steps, your Caesars $100 discount code will be processed and delivered to your email within 24-48 business hours."
     },
     {
-      question: "Can I use this code on any Chipotle order?",
-      answer: "Absolutely! Your $250 discount code works on any Chipotle order — burritos, bowls, tacos, salads, and more."
+      question: "Can I use this code on any Litlle Caesars order?",
+      answer: "Absolutely! Your $100 discount code works on any Caesars order."
     },
     {
       question: "Is my information secure?",
