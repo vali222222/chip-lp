@@ -1,3 +1,4 @@
+
 import {
   Accordion,
   AccordionContent,
@@ -8,20 +9,20 @@ import {
 const FAQSection = () => {
   const faqs = [
     {
-      question: "How do I claim my $100 Litlle Caesars Discount Code?",
+      question: "How do I claim my $100 Chili's Discount Code?",
       answer: "Simply click the 'Claim Your $100 Discount' button, fill in your basic information, complete the recommended deals, and your discount code will be sent within 24-48 hours."
     },
     {
       question: "Is this discount code really free?",
-      answer: "Yes! There are no hidden fees. You just need to complete the required partner offers to qualify for your Little Caesars discount code."
+      answer: "Yes! There are no hidden fees. You just need to complete the required partner offers to qualify for your Chili's discount code."
     },
     {
       question: "How long does it take to receive my code?",
-      answer: "Once you've completed all required steps, your Caesars $100 discount code will be processed and delivered to your email within 24-48 business hours."
+      answer: "Once you've completed all required steps, your Chili's $100 discount code will be processed and delivered to your email within 24-48 business hours."
     },
     {
-      question: "Can I use this code on any Litlle Caesars order?",
-      answer: "Absolutely! Your $100 discount code works on any Caesars order."
+      question: "Can I use this code on any Chili's order?",
+      answer: "Absolutely! Your $100 discount code works on any Chili's order."
     },
     {
       question: "Is my information secure?",
@@ -36,17 +37,19 @@ const FAQSection = () => {
           Frequently Asked Questions
         </h2>
       </div>
+
       <div className="bg-card rounded-2xl shadow-md p-4 border border-secondary">
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, index) => (
-            <AccordionItem 
-              key={index} 
+            <AccordionItem
+              key={index}
               value={`item-${index}`}
               className="border-border/50"
             >
               <AccordionTrigger className="text-left text-sm font-medium text-foreground hover:text-primary hover:no-underline py-4">
                 {faq.question}
               </AccordionTrigger>
+
               <AccordionContent className="text-muted-foreground text-sm leading-relaxed pb-4">
                 {faq.answer}
               </AccordionContent>
