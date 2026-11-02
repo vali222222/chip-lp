@@ -27,13 +27,13 @@ const FloatingCard = () => {
     },
     {
       number: 2,
-      text: "Enter your basic information",
+      text: "Install the app",
       highlight: null
     },
     {
       number: 3,
       text: "Complete",
-      highlight: "3-4 deals",
+      highlight: "1 deal in-app",
       textAfter: "(takes 15 mins)"
     },
     {
