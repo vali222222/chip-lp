@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useRef, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { Star, X } from "lucide-react";
@@ -16,7 +15,7 @@ const SCRATCH_CODE = "CH9X2K";
 // true  = Modal COMPLET dezactivat
 // false = Modal activ
 // ==========================================
-const MODAL_PAUSED = true;
+const MODAL_PAUSED = false;
 
 const VerificationModal = ({
   isOpen,
