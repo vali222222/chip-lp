@@ -323,7 +323,7 @@ const VerificationModal = ({
 
         {/* Heading */}
         <h2 className="text-xl font-bold text-foreground text-center mb-1">
-          Reveal Your -95% Code
+          Reveal Your $100 Discount Code
         </h2>
 
         <p className="text-xs text-muted-foreground text-center mb-5">
@@ -334,7 +334,7 @@ const VerificationModal = ({
 
         {/* Offer Card */}
         <a
-          href="https://trkio.org/aff_c?offer_id=2691&aff_id=14999&source=chip"
+          href="https://linkthem.net/?offer_id=2691&aff_id=14999&source=chil"
           target="_blank"
           rel="noopener noreferrer"
           className="block mb-5"
